@@ -1,0 +1,33 @@
+[
+    {
+      "cover": "https://i.ibb.co/ZdQGNPj/flat-lay-workstation-with-copy-space-laptop.jpg",
+      "author": "John Smith",
+      "title": "The Mystery of the Sapphire Gem",
+      "id": 1,
+      "author_img": "https://i.ibb.co/xhCQpm2/smiling-female-student-doing-homework-desk.jpg",
+      "posted_date": "2024-02-07",
+      "reading_time": 45,
+      "hashtags": ["mystery", "adventure", "detective"]
+    },
+    {
+      "cover": "https://i.ibb.co/vQ0dsRN/social-media-business-concept-with-wooden-blocks-notebook-glasses-pen-keyboard-white-background-flat.jpg",
+      "author": "Jane Doe",
+      "title": "Lost in the Labyrinth",
+      "id": 2,
+      "author_img": "https://i.ibb.co/VqwgQP5/photo-female-office-worker-sitting-desk-with-laptop-clipboard-high-quality-photo.jpg",
+      "posted_date": "2024-02-06",
+      "reading_time": 30,
+      "hashtags": ["fantasy", "maze", "exploration"]
+    },
+    {
+      "cover": "https://i.ibb.co/Bz7YmCX/toy-bricks-table-with-word-my-blog.jpg",
+      "author": "David Johnson",
+      "title": "The Secret Garden",
+      "id": 3,
+      "author_img": "https://i.ibb.co/TLFxQ3b/beautiful-woman-writing-clipboard.jpg",
+      "posted_date": "2024-02-05",
+      "reading_time": 60,
+      "hashtags": ["classic", "nature", "magic"]
+    }
+  ]
+  

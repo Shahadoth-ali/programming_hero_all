@@ -1,0 +1,17 @@
+[
+    {
+      "id": 1,
+      "name": "Rolex Submariner",
+      "price": 10000
+    },
+    {
+      "id": 2,
+      "name": "Omega Speedmaster Professional",
+      "price": 7500
+    },
+    {
+      "id": 3,
+      "name": "Seiko Presage Cocktail Time",
+      "price": 500
+    }
+  ]
