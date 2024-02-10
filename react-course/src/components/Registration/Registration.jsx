@@ -3,10 +3,10 @@
 
 import { useEffect, useState } from "react";
 import Title from "../Title/Title"
-import RemainCredit from "../RemainCredit/RemainCredit";
+// import RemainCredit from "../RemainCredit/RemainCredit";
 
 
-const Registration = ({courses,time,price}) => {
+const Registration = ({courses,time,price,remainingCredit}) => {
 
     // const [remainingCredit,setRemainingCredit]=useState(20);
 
@@ -16,19 +16,15 @@ const Registration = ({courses,time,price}) => {
     <div className="md:w-1/4 h-full mt-6 bg-white rounded-xl">
 
         {/* first element */}
-      <div className="font-lg font-bold text-left text-blue-600 ml-5 mt-4 pb-3 mr-5 border-b-2">
-        {
-            courses.map(course=><RemainCredit key={course.id} course={course}></RemainCredit>)
-        }
-      </div>
+      <p className="font-lg font-bold text-left text-blue-600 ml-5 mt-4 pb-3 mr-5 border-b-2">
+      Credit Hour Remaining {remainingCredit} hr
+      </p>
 
       {/* second element */}
       <div className="ml-5 mr-5 mt-3">
         <h1 className="text-2xl font-bold">Course Name</h1>
         <div className="mt-5 pb-5 border-b-2">
-            {
-                courses.map(course=><Title key={course.id} course={course}></Title>)
-            }
+           {courses.map(course=><Title key={course.id} course={course}></Title>)}
         </div>
       </div>
 

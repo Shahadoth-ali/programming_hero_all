@@ -6,18 +6,32 @@ import Registration from "./components/Registration/Registration"
 
 function App() {
 
-  
+  const [remainingCredit,setRemainingCredit]=useState(20);
   const [courses,setCourses]=useState([]);
   const [time,setTime]=useState(0);
   const [price,setPrice]=useState(0);
 
-  const hadleSelect=(course,credit,tk)=>{
-    const newCourses=[...courses,course]
-    setCourses(newCourses);
-    const newTime=time+credit;
-    setTime(newTime);
+
+
+  const hadleSelect=(course,credit,tk,id)=>{
+
+   if(!courses.includes(course)){
+    if(remainingCredit<=20 && remainingCredit>0){
+      const newCourses=[...courses,course]
+      setCourses(newCourses);
+      const newTime=time+credit;
+      setTime(newTime);
+      const remainTime=remainingCredit-credit;
+      setRemainingCredit(remainTime);
+    }else if(remainingCredit===0){
+      alert('credit hour exceed.');
+    }
     const Newprice=price+tk;
     setPrice(Newprice)
+   }else{
+    alert('this course is already selected.')
+   }
+   
   }
 
   
@@ -30,6 +44,7 @@ function App() {
      courses={courses}
     time={time}
     price={price}
+    remainingCredit={remainingCredit}
     ></Registration>
    </main>
     </div>

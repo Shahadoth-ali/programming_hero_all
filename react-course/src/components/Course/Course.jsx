@@ -10,7 +10,8 @@ const Course = ({course,hadleSelect}) => {
         cover_image,
         description,
         price,
-        credit_hours
+        credit_hours,
+        id
     }=course;
 
 
@@ -41,7 +42,7 @@ const Course = ({course,hadleSelect}) => {
 
         {/* fifth item */}
         <button 
-        onClick={()=>hadleSelect(course,credit_hours,price)}
+        onClick={()=>hadleSelect(course,credit_hours,price,id)}
         className="w-full text-center bg-blue-600 text-white rounded-lg p-2 font-bold mt-5">
             Select
         </button>
