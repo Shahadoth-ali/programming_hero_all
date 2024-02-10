@@ -1,0 +1,123 @@
+[
+    {
+        "id": 1,
+        "title": "Python Programming",
+        "description": "Learn the fundamentals of Python programming language from scratch. This course covers all the basics",
+        "price": 49.99,
+        "credit_hours": 1,
+        "cover_image": "https://i.ibb.co/5rsJKFj/composition-with-html-system-websites.jpg"
+      },
+      {
+        "id": 2,
+        "title": "Learn HTML, CSS, and JavaScript",
+        "description": "Skills required to build interactive and responsive websites using HTML, CSS, and JavaScript.",
+        "price": 69.99,
+        "credit_hours": 2,
+        "cover_image": "https://i.ibb.co/M5hJ4kf/development-growth-progress-icon-concept.jpg"
+      },
+      {
+        "id": 3,
+        "title": "Introduction to Data Science with R",
+        "description": "Discover the basics of data science using R programming language. Learn data manipulation and visualization.",
+        "price": 59.99,
+        "credit_hours": 2,
+        "cover_image": "https://i.ibb.co/yqm6m4X/business-data-analysis.jpg"
+      },
+      {
+        "id": 4,
+        "title": "Cybersecurity Fundamentals",
+        "description": "Gain a comprehensive understanding of cybersecurity principles and practices with network security.",
+        "price": 79.99,
+        "credit_hours": 3,
+        "cover_image": "https://i.ibb.co/Wz6gvyS/man-working-banner-network-graphic-overlay-floor.jpg"
+      },
+      {
+        "id": 5,
+        "title": "Machine Learning with Python",
+        "description": "Explore the foundational concepts of machine learning and implement basic algorithms using Python.",
+        "price": 89.99,
+        "credit_hours": 2,
+        "cover_image": "https://i.ibb.co/gWrk8T9/person-using-laptop-using-artificial-intelligence-generate-images.png"
+      },
+    {
+      "id": 6,
+      "title": "Java:From Basics to Advanced",
+      "description": "A comprehensive course covering Java programming language from basics to advanced topics including OOP.",
+      "price": 99.99,
+      "credit_hours": 5,
+      "cover_image": "https://i.ibb.co/nPH3trm/360-F-451128839-vm-KOyil368-Uo-Xcac46-W7aaqel-Tt-Lu-NFk.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Database Management with SQA",
+      "description": "Learn the fundamentals of SQL for managing relational databases.Topics include querying,database design.",
+      "price": 59.99,
+      "credit_hours": 5,
+      "cover_image": "https://i.ibb.co/Z2Bx6CC/20220321-141639130-i-OS.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Cloud Computing Essentials",
+      "description": "An introductory course to cloud computing technologies and services. Covers cloud deployment models.",
+      "price": 79.99,
+      "credit_hours": 3,
+      "cover_image": "https://i.ibb.co/6vbmbhs/cloud-computing-models-1-1280x720.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Mobile App Development",
+      "description": "Learn to build cross-platform mobile applications using React Native framework.Topics include app stores.",
+      "price": 89.99,
+      "credit_hours": 1,
+      "cover_image": "https://i.ibb.co/yNF5Kj3/Cost-of-Mobile-App-Development-in-Singapore.jpg"
+    },
+    {
+      "id": 10,
+      "title": "Basics of Network Fundamentals",
+      "description": "An overview of computer networking fundamentals including TCP/IP protocols and network topologies.",
+      "price": 69.99,
+      "credit_hours": 7,
+      "cover_image": "https://i.ibb.co/JqNNPrm/IT-Network-Fundamentals-Training.jpg"
+    },
+    {
+        "id": 11,
+        "title": "Introduction to Cybersecurity",
+        "description": "Get an introduction to the field of cybersecurity, covering topics such as cyber threats with risk management.",
+        "price": 49.99,
+        "credit_hours": 6,
+        "cover_image": "https://i.ibb.co/tMjjJ61/depositphotos-239549088-stock-photo-cyber-security-data-protection-information.webp"
+      },
+      {
+        "id": 12,
+        "title": "Full Stack Web Development",
+        "description": "Learn to build modern web applications with a focus on both frontend and backend development.",
+        "price": 99.99,
+        "credit_hours": 4,
+        "cover_image": "https://i.ibb.co/rMhn3bM/Guide-to-Full-Stack-Development-000eb0b2d0.jpg"
+      },
+      {
+        "id": 13,
+        "title": "Data Analytics with Python",
+        "description": "Explore data analytics techniques using Python, including data visualization with statistical analysis.",
+        "price": 79.99,
+        "credit_hours": 3,
+        "cover_image": "https://i.ibb.co/jJXQR8T/Python-for-data-analysis.jpg"
+      },
+      {
+        "id": 14,
+        "title": "Ethical Hacking and Penetration",
+        "description": "Learn ethical hacking techniques and penetration testing methodologies to identify and mitigate vulnerabilities.",
+        "price": 89.99,
+        "credit_hours": 4,
+        "cover_image": "https://i.ibb.co/C5tHr97/240115-LLPA-Ethical-Hacking-FB-landscape-1200x630px-1024x538.jpg"
+      },
+      {
+        "id": 15,
+        "title": "Blockchain Essentials",
+        "description": "An introduction to blockchain technology, covering blockchain fundamentals with smart contracts.",
+        "price": 69.99,
+        "credit_hours": 3,
+        "cover_image": "https://i.ibb.co/Yk964h6/blockchain-1.jpg"
+      }
+  ]
+  
