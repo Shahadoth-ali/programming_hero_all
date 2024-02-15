@@ -1,6 +1,7 @@
 /* eslint-disable no-unused-vars */
 const getStoredCart=()=>{
     const storedCart=localStorage.getItem('cart')
+    //jodi item age hote thake taile json akare pabo ai jayga hote na thakle array
     if(storedCart){
         return JSON.parse(storedCart)
     }
