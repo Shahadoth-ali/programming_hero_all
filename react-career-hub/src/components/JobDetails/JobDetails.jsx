@@ -10,14 +10,15 @@ const JobDetails = () => {
 
     const jobs=useLoaderData();
     const {id}=useParams();
+    const idInt=parseInt(id);
 
-    const joob=jobs.find(joob=>joob.id == id);
-    console.log(id,joob);
+    const joob=jobs.find(joob=>joob.id === idInt);
+    console.log(joob);
 
 
   const handleApplyJob=()=>{
     //saving to local storage
-    saveJobApplication(id);
+    saveJobApplication(idInt);
     toast('You have applied successfully.')
   }
 
