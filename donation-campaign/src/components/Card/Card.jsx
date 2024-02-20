@@ -9,7 +9,7 @@ const Card = ({card}) => {
 
 
   return (
-  <Link className="w-full rounded-lg" style={{backgroundColor:card_bg}} to={`/card/${id}`}>
+  <Link className="w-full rounded-lg m-2" style={{backgroundColor:card_bg}} to={`/card/${id}`}>
 
   <figure className="h-2/3"><img src={picture} className="h-full" alt="Shoes" /></figure>
   <div className="h-1/3 ml-4 mt-4">

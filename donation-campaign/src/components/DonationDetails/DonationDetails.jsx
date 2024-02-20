@@ -8,7 +8,7 @@ const DonationDetails = ({donation}) => {
     const {title,category,picture,card_bg,category_bg,text_button_bg,id,price}=donation;
 
   return (
-    <div className="w-full h-52 rounded-lg flex" style={{backgroundColor:card_bg}}>
+    <div className="w-full h-52 rounded-lg flex m-2" style={{backgroundColor:card_bg}}>
 
   <figure className="w-1/3"><img src={picture} className="h-full" alt="Shoes" /></figure>
   <div className="h-1/3 ml-10 mt-8">
