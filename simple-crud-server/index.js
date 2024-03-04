@@ -26,14 +26,43 @@ async function run() {
     // Connect the client to the server	(optional starting in v4.7)
     await client.connect();
     const database = client.db("usersDB").collection('users');
-
+    
+    //for read or showing in client side
     app.get('/users',async(req,res)=>{
       const cursor=database.find()
       const result=await cursor.toArray();
       res.send(result);
     })
 
+    //finding out a specific user for updating
+    app.get('/users/:id',async(req,res)=>{
+      const id=req.params.id;
+      const query={_id: new ObjectId(id)}
+      const user=await database.findOne(query);
+      res.send(user);
+    })
 
+
+    //for updating
+     app.put('/users/:id',async(req,res)=>{
+        const id=req.params.id;
+        const updatedU=req.body;
+        console.log('updated',updatedU);
+       //for setting in client side with updating in backend
+       const filter={_id: new ObjectId(id)}
+       const options={upsert: true}
+       const updatedUser={
+        $set:{
+          name:updatedU.name,
+          email:updatedU.email
+        }
+       }
+       const result=await database.updateOne(filter,updatedUser,options);
+       res.send(result);
+     })
+
+
+     //for posting
     app.post('/users',async(req,res)=>{
         const user=req.body;
         console.log('new user',user);
@@ -42,6 +71,8 @@ async function run() {
     });
 
 
+
+    //for deleting a item
     app.delete('/users/:id',async(req,res)=>{
       const id=req.params.id;
       // console.log('please delete from db',id);
