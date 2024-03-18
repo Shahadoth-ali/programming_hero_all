@@ -7,11 +7,11 @@ const CoffeeCard = ({coffee}) => {
     const {photo,name,details,quantity,supplier,taste}=coffee;
 
   return (
-    <div className="card card-side bg-base-100 shadow-xl">
+    <div className="card card-side bg-base-100 shadow-xl gap-2">
   <figure className="w-1/4"><img src={coffee.photo} alt="Movie"/></figure>
-  <div className="flex">
+  <div className="flex justify-between gap-2 w-full">
     {/* first element of card body */}
-    <div>
+    <div className="mx-auto my-auto">
     <h2 className="card-title">Name: {name}</h2>
     <p>{quantity}</p>
     <p>{supplier}</p>
@@ -19,13 +19,13 @@ const CoffeeCard = ({coffee}) => {
     <p>{details}</p>
     </div>
     {/* second element of card body */}
-    <div className="card-actions justify-end">
-     <div>
-     <button className="btn btn-active btn-primary">Primary</button>
-<button className="btn btn-active btn-secondary">Secondary</button>
-<button className="btn btn-active btn-accent">Accent</button>
+    
+     <div className="flex flex-col mt-14 my-2 gap-2">
+     <button className="btn btn-active btn-primary">View</button>
+<button className="btn btn-active btn-secondary">Edit</button>
+<button className="btn btn-active btn-accent">Delete</button>
      </div>
-    </div>
+    
   </div>
 </div>
   )
