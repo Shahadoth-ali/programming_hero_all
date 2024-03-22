@@ -11,6 +11,7 @@ const CoffeeCard = ({coffee}) => {
   <figure className="w-1/4"><img src={coffee.photo} alt="Movie"/></figure>
   <div className="flex justify-between gap-2 w-full">
     {/* first element of card body */}
+    
     <div className="mx-auto my-auto">
     <h2 className="card-title">Name: {name}</h2>
     <p>{quantity}</p>
