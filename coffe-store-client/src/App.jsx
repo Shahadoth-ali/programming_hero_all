@@ -24,5 +24,5 @@ function App() {
     </div>
   )
 }
-
+//this is for committing in git
 export default App
